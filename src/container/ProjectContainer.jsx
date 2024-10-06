@@ -1,12 +1,14 @@
 import React from "react";
 import Projects from "../components/projects/Projects";
 import img2 from "../assets/approved-chat-app-icon-vector-28873697.jpg";
+import portfolio from "../assets/portfolio.png"
+import nexcent from "../assets/nexcent.jpeg"
 import "./project.css";
 const ProjectContainer = () => {
   return (
     <div className="projects">
       <h3>Projects :</h3>
-      <div>
+      <div className="myProjects">
         <Projects
           title={"Chat App"}
           img={img2}
@@ -18,7 +20,7 @@ const ProjectContainer = () => {
         />
         <Projects
           title={"Nexcent Landing Page"}
-          img={img2}
+          img={nexcent}
           miniDesc={"Responsive Landing page created with react"}
           projectInfo={
             "Developed a single-page web application for Nexcent using React.js, implementing a smooth scrolling feature thatimproved user navigation and adhered precisely to Figma design mockups "
@@ -27,7 +29,7 @@ const ProjectContainer = () => {
         />
         <Projects
           title={"Portfolio"}
-          img={img2}
+          img={portfolio}
           miniDesc={
             " A Responsive Interface designed to elegantly display my personal information and achievements"
           }

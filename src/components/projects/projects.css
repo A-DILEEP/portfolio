@@ -1,13 +1,21 @@
 .project .logoImg img {
   height: 50px;
   border-radius: 10px;
+  margin-left: 20px;
 }
 .project {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: -25px;
+  margin-top: -15px;
   padding: 5px 10px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  background-color: #0e0e0e;
+}
+.project:hover{
+  background-color: #131313;
+  border-bottom: 2px solid #234244;
 }
 .projectsDone {
   margin-left: 40px;
