@@ -1,0 +1,25 @@
+
+.experience{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.experience h3{
+    margin-bottom: -13px;
+    font-size: 25px;
+}
+.experience .icon img{
+    height: 50px;
+}
+.experienceInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.experienceHeading{
+    margin-left: 25px;
+    line-height: 20px;
+}
+.experienceHeading h4{
+    margin-bottom: -6px;
+}

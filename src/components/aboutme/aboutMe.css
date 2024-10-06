@@ -1,0 +1,14 @@
+.aboutMe{
+    margin-top: 6rem;
+}
+.aboutMe .heading h1{
+    font-size: 50px;    
+}
+.aboutMeInfo h3{
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+.aboutMeInfo p{
+    line-height: 20px;
+    text-align: justify;
+}

@@ -1,0 +1,27 @@
+.project .logoImg img {
+  height: 50px;
+  border-radius: 10px;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -25px;
+  padding: 5px 10px;
+}
+.projectsDone {
+  margin-left: 40px;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+.projectsDone p {
+  margin: 5px 0px;
+  line-height: 15px;
+  padding: 5px 0px;
+}
+.projectsDone h4 {
+  margin-bottom: -2px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
