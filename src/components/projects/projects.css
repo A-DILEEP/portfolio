@@ -19,13 +19,17 @@
 }
 .projectsDone {
   margin-left: 40px;
-  margin-top: 5px;
+  margin-top: 15px;
   padding: 5px 10px;
 }
 .projectsDone p {
   margin: 5px 0px;
-  line-height: 15px;
+  line-height: 22px;
+  font-size: 14px;
   padding: 5px 0px;
+  font-weight: 300;
+  color:#cccccc;
+  text-align: justify;
 }
 .projectsDone h4 {
   margin-bottom: -2px;
@@ -33,3 +37,22 @@
   margin-top: 0px;
 }
 
+@media only screen and (max-width:600px) {
+  .project{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .project h4{
+    font-size: 20px;
+    border-bottom: 1px solid #313131;
+    display: inline;
+  }
+  .project p{
+    font-size: 12px;
+  }
+  .projectsDone{
+    margin: 0;
+    margin-top: 10px;
+  }
+}

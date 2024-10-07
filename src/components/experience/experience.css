@@ -5,7 +5,8 @@
 }
 .experience h3{
     margin-bottom: -13px;
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: 400;
 }
 .experience .icon img{
     height: 50px;
@@ -29,4 +30,17 @@
 }
 .experienceHeading h4{
     margin-bottom: -6px;
+}
+.experienceHeading p{
+    font-size: 13px;
+    font-weight: 300;
+    color:#cccccc;
+}
+
+@media only screen and (max-width:600px) {
+    .experienceInfo{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
 }
