@@ -16,7 +16,7 @@ const ProjectContainer = () => {
             " Developing a dynamic real-time chat application using React.js for the front-end, SASS for styling, and Firebasefor managing user authentication and chat databases."
           }
           miniDesc={" Real-time chat application using React.js"}
-          tools={"React.js,SASS ,Express.js, Firebase, Github"}
+          tools={"React.js, SASS, Express.js, Firebase, Github"}
         />
         <Projects
           title={"Nexcent Landing Page"}
@@ -36,7 +36,7 @@ const ProjectContainer = () => {
           projectInfo={
             " Developed a responsive personal website to elegantly showcase skills and achievements. Emphasizes modern designprinciples for optimal viewing across all devices."
           }
-          tools={"HTML,CSS ,JavaScript, W3Forms, Github"}
+          tools={"HTML, CSS, JavaScript, W3Forms, Github"}
         />
       </div>
     </div>

@@ -27,9 +27,12 @@
 .experienceHeading{
     margin-left: 25px;
     line-height: 20px;
+    text-align: justify;
 }
 .experienceHeading h4{
     margin-bottom: -6px;
+    border-bottom: 2px solid #313131;
+    display: inline;
 }
 .experienceHeading p{
     font-size: 13px;
@@ -42,5 +45,9 @@
         display: flex;
         flex-direction: column;
         padding-top: 20px;
+    }
+    .experienceHeading{
+        margin: 0;
+        margin-top: 10px;
     }
 }
