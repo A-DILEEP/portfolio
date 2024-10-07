@@ -15,7 +15,7 @@
 }
 .project:hover{
   background-color: #131313;
-  border-bottom: 2px solid #234244;
+  border-bottom: 1px solid #234244;
 }
 .projectsDone {
   margin-left: 40px;

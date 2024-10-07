@@ -15,6 +15,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #0e0e0e;
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+.experienceInfo:hover{
+    border-bottom:2px solid #234244;
 }
 .experienceHeading{
     margin-left: 25px;
