@@ -2,8 +2,8 @@
     display: flex;
     border: 1px solid white;
     width:fit-content;
-    padding: 5px 15px;
-    border-radius: 10px;
+    padding: 0px 5px;
+    border-radius: 15px;
     background-color: #181818;
     position: fixed;
     bottom: 0;
@@ -11,4 +11,11 @@
 }
 .socials a{
     margin: 10px 20px;
+    text-decoration: none;
+    color: #2d484d;
+    transition:transform 0.3s ease;
+}
+.socials a:hover{
+    transform: translateY(-4px);
+    border-bottom: 1px solid #00d9ff;
 }
