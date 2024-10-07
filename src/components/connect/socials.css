@@ -1,0 +1,14 @@
+.socials{
+    display: flex;
+    border: 1px solid white;
+    width:fit-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #181818;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+.socials a{
+    margin: 10px 20px;
+}

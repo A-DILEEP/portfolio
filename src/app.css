@@ -9,4 +9,10 @@ body{
     padding-right: 25%;
     background-color: black;
     color:#fff;
+    margin-bottom: 60px;
+}
+.mySocials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
