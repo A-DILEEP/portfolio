@@ -1,10 +1,10 @@
 .socials{
     display: flex;
-    border: 1px solid white;
+    border: 1px solid rgb(134, 134, 134);
     width:fit-content;
     padding: 0px 5px;
     border-radius: 15px;
-    background-color: #181818;
+    background-color: #131313;
     position: fixed;
     bottom: 0;
     margin-bottom: 10px;
