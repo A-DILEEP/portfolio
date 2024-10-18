@@ -1,14 +1,22 @@
+.SkillContent{
+    padding-bottom: 20px;
+}
 .skillHeading h3 {
     font-size: 23px;
     font-weight: 400;
 }
 .SkillText{
     display:grid;
-    grid-template-columns:auto auto auto auto auto auto auto auto;
-    padding: 5px;
+    grid-template-columns:repeat(auto-fit,minmax(90px,5fr));
+    padding: 5px ;
+    grid-template-rows: auto;
+    gap: 5px;
 }
 .SkillText div{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.item{
+    margin: 0;
 }

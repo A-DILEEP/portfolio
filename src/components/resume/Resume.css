@@ -1,0 +1,18 @@
+.Resume {
+  margin-top: 20px;
+  max-width: fit-content;
+}
+.Resume p {
+  border: 1px solid #fff;
+  padding: 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  font-size: 14px;
+}
+.Resume p:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  transform: translateY(-4px);
+  box-shadow: 2px 3px 15px -4px #fff;
+}

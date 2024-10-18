@@ -3,48 +3,50 @@ import Skills from "../../components/skills/Skills";
 import "./SkillContent.css";
 const SkillContent = () => {
   return (
-    <div className="SKillContent">
+    <div className="SkillContent">
       <div className="skillHeading">
         <h3>Skills : </h3>
       </div>
       <div className="SkillText">
-        <div className="item1">
+        <div className="item">
           <Skills text="HTML" />
         </div>
-        <div className="item2">
+        <div className="item">
           <Skills text="CSS" />
         </div>
-        <div className="item3">
+        <div className="item">
+          <Skills text="SASS" />
+        </div>
+        <div className="item">
           <Skills text="Javascript" />
         </div>
-        <div className="item4">
+        <div className="item">
           <Skills text="React.js" />
         </div>
-        <div className="item5">
+        <div className="item">
           <Skills text="Express.js" />
         </div>
-        <div className="item6">
+        <div className="item">
           <Skills text="MongoDB" />
         </div>
-        <div className="item7">
+        <div className="item">
           <Skills text="SQL"/>
         </div>
-        <div className="item8">
+        <div className="item">
           <Skills text="Firebase"/>
         </div>
-        <div className="item9">
+        <div className="item">
           <Skills text="C++" />
         </div>
-        <div className="item10">
+        <div className="item">
           <Skills text="Python" />
         </div>
-        <div className="item11">
+        <div className="item">
           <Skills text="Git" />
         </div>
-        <div className="item12">
+        <div className="item">
           <Skills text="Github" />
         </div>
-
       </div>
     </div>
   );
