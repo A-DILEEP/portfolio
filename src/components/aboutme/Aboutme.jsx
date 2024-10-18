@@ -1,9 +1,25 @@
 import React from "react";
 import "./aboutMe.css";
+import gsap from 'gsap';
+import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
+
 const Aboutme = () => {
+  const heading=useRef();
+  useGSAP(()=>{
+    gsap.from(heading.current,{
+      x:-50,
+      opacity:0,
+      duration:2,
+    });
+    gsap.to('.hi',{
+      x:0,
+      opacity:1,
+    })
+  });
   return (
     <div className="aboutMe">
-      <div className="heading">
+      <div className="heading" ref={heading}>
         <h1>
           <span className="hi">Hi ,</span> This is <span style={{ color: "#2aebb4" }}>Dileep</span>!
         </h1>
