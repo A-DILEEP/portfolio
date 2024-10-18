@@ -2,9 +2,9 @@ import React from 'react'
 import './Skills.css'
 const Skills = ({text}) => {
   return (
-    <>
-    <h5>{text}</h5>
-    </>
+    <div className="Skills">
+      <p className='SkillsText'>{text}</p>
+    </div>
   )
 }
 
