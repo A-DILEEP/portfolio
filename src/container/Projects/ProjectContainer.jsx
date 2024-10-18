@@ -1,8 +1,8 @@
 import React from "react";
-import Projects from "../components/projects/Projects";
-import img2 from "../assets/approved-chat-app-icon-vector-28873697.jpg";
-import portfolio from "../assets/portfolio.png"
-import nexcent from "../assets/nexcent.jpeg"
+import Projects from "../../components/projects/Projects";
+import img2 from '../../assets/chat.png'
+import portfolio from "../../assets/portfolio.png"
+import nexcent from "../../assets/nexcent.jpeg"
 import "./project.css";
 const ProjectContainer = () => {
   return (
