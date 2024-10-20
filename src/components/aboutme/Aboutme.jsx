@@ -1,32 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./aboutMe.css";
-import gsap from 'gsap';
 import { useRef } from "react";
-import { useGSAP } from "@gsap/react";
-
+import { slide} from "../../animationGsap/Animation";
 const Aboutme = () => {
-  const heading=useRef();
-  useGSAP(()=>{
-    gsap.from(heading.current,{
-      x:-50,
-      opacity:0,
-      duration:2,
-    });
-    gsap.to('.hi',{
-      x:0,
-      opacity:1,
-    })
-  });
+  const heading = useRef([]);
+  useEffect(() => {
+    slide('.heading');
+  },[]);
   return (
     <div className="aboutMe">
       <div className="heading" ref={heading}>
         <h1>
-          <span className="hi">Hi ,</span> This is <span style={{ color: "#2aebb4" }}>Dileep</span>!
+          <span className="hi">Hi ,</span> This is{" "}
+          <span style={{ color: "#2aebb4" }}>Dileep</span>!
         </h1>
       </div>
       <div className="aboutMeInfo">
         <h3>About Me :</h3>
-        <p>
+        <p >
           My name is Dileep, and I am currently pursuing my Bachelor of
           Engineering in Computer Science from Sathyabama Institute of Science
           and Technology.A Passionate and enthusiastic Full Stack Developer with
