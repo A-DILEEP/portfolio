@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./projects.css";
+import { scrollTrigger } from "../../animationGsap/Animation";
 const Projects = ({ title, miniDesc, projectInfo, img, tools }) => {
+  useEffect(()=>{
+    scrollTrigger('.projectsDone');
+  });
   return (
     <div className="project">
       <div className="logoImg">

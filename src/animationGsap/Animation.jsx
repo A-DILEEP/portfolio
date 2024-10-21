@@ -15,5 +15,25 @@ export const slide=(element)=>{
         stagger: 0.2,
       },
     );
-
 };
+
+export const scrollTrigger=(element)=>{
+  gsap.to(element,{
+    x:-1000,
+    scrollTrigger:{
+      trigger:element,
+      start:'top bottom',
+      end:'center center',
+      scrub:true,
+    },
+  });
+  gsap.to(element,{
+    x:0,
+    scrollTrigger:{
+      trigger:element,
+      start:'center center',
+      end: 'bottom top',
+      scrub:true,
+    }
+  });
+}

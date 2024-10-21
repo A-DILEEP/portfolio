@@ -17,7 +17,7 @@ const Aboutme = () => {
       </div>
       <div className="aboutMeInfo">
         <h3>About Me :</h3>
-        <p >
+        <p id="para">
           My name is Dileep, and I am currently pursuing my Bachelor of
           Engineering in Computer Science from Sathyabama Institute of Science
           and Technology.A Passionate and enthusiastic Full Stack Developer with
