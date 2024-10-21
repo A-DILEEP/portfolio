@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import "./aboutMe.css";
 import { useRef } from "react";
-import { slide} from "../../animationGsap/Animation";
+import { slideRL} from "../../animationGsap/Animation";
 const Aboutme = () => {
   const heading = useRef([]);
   useEffect(() => {
-    slide('.heading');
+    slideRL('.heading');
   },[]);
   return (
     <div className="aboutMe">

@@ -1,6 +1,6 @@
 import gsap from 'gsap'
 
-export const slide=(element)=>{
+export const slideRL=(element)=>{
     gsap.fromTo(
       element,
       {
@@ -16,24 +16,3 @@ export const slide=(element)=>{
       },
     );
 };
-
-export const scrollTrigger=(element)=>{
-  gsap.to(element,{
-    x:-1000,
-    scrollTrigger:{
-      trigger:element,
-      start:'top bottom',
-      end:'center center',
-      scrub:true,
-    },
-  });
-  gsap.to(element,{
-    x:0,
-    scrollTrigger:{
-      trigger:element,
-      start:'center center',
-      end: 'bottom top',
-      scrub:true,
-    }
-  });
-}
