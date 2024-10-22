@@ -5,6 +5,7 @@ import portfolio from "../../assets/portfolio.png"
 import nexcent from "../../assets/nexcent.jpeg"
 import "./project.css";
 const ProjectContainer = () => {
+  
   return (
     <div className="projects">
       <h3>Projects :</h3>

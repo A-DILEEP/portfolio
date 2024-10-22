@@ -1,8 +1,9 @@
 import React from "react";
 import "./projects.css";
+
 const Projects = ({ title, miniDesc, projectInfo, img, tools }) => {
   return (
-    <div className="project">
+    <div className="project" >
       <div className="logoImg">
         <img src={img} alt={title} />
       </div>

@@ -7,7 +7,7 @@ import Resume from "./components/resume/Resume";
 import "./app.css";
 function App() {
   return (
-    <div className="app">
+    <div>
       <Aboutme />
       <Resume/>
       <Experience />
