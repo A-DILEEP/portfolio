@@ -14,8 +14,9 @@
   background-color: #131313;
 }
 .project:hover{
+  box-shadow: 2px 3px 10px -4px #4b5b72;
   background-color: #131313;
-  border-bottom: 1px solid #234244;
+  border-bottom: 1px solid #415d5f;
 }
 .projectsDone {
   margin-left: 40px;
