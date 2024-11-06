@@ -1,11 +1,14 @@
 import React, { useEffect } from "react";
 import "./aboutMe.css";
 import { useRef } from "react";
-import { slideRL} from "../../animationGsap/Animation";
+import { slideRL, slideUD} from "../../animationGsap/Animation";
 const Aboutme = () => {
   const heading = useRef([]);
+  const body=useRef([]);
+
   useEffect(() => {
-    slideRL('.heading');
+    slideUD('.heading');
+    slideRL('.aboutMeInfo');
   },[]);
   return (
     <div className="aboutMe">
@@ -15,7 +18,7 @@ const Aboutme = () => {
           <span style={{ color: "#2aebb4" }}>Dileep</span>!
         </h1>
       </div>
-      <div className="aboutMeInfo">
+      <div className="aboutMeInfo" ref={body}>
         <h3>About Me :</h3>
         <p id="para">
           My name is Dileep, and I am currently pursuing my Bachelor of
@@ -28,7 +31,7 @@ const Aboutme = () => {
           and back-end development, with a focus on building intuitive user
           experiences. Eager to contribute to a real time projects , bringing
           creativity, strong problem-solving skills, and a commitment to
-          continuous improvement .
+          continuous improvement.
         </p>
       </div>
     </div>
